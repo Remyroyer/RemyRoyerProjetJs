@@ -11,3 +11,5 @@ let tampon = (numberOfEpisodes * numberOfSeasons * episodeTime);
 let totalShowTime = tampon - (tampon * commercialTime);
 
 console.log(totalShowTime);
+
+console.table(totalShowTime, commercialTime, tampon);
